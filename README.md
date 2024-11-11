@@ -8,7 +8,11 @@ To perform key exchange using the Elliptic Curve Cryptography (ECC) method.
 
 ## ALGORITHM:
 
-Choose a large prime number p and an elliptic curve defined by the equation y^2 = x^3 + ax+b mod p along with a base point G on the curve. Alice and Bob choose private keys. Compute public keys: public_key = private_key G (point multiplication). Exchange public keys. Compute the shared secret: shared_secret = private_key public_key_received.
+1.Choose a large prime number p and an elliptic curve defined by the equation y^2 = x^3 + ax+b mod p along with a base point G on the curve. 
+
+2.Alice and Bob choose private keys. Compute public keys: public_key = private_key G (point multiplication). 
+
+3.Exchange public keys. Compute the shared secret: shared_secret = private_key public_key_received.
 
 
 #### Name: SANJAY G
